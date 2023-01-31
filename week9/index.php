@@ -23,11 +23,90 @@
     	<div class="col-rt-12">
         	<div class="rt-heading">
             	<h1>Student Profile Page</h1>
-                <p>php validation</p>
+                
             </div>
         </div>
     </div>
 </header>
+
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+<!-- Student Profile -->
+<div class="student-profile py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card shadow-sm">
+          <div class="card-header bg-transparent text-center">
+            <img class="profile_img" src="bon.jpg" alt="bon"  style="width:100%">
+            <h3>Bon Daggao</h3>
+          </div>
+          <div class="card-body">
+            <p class="mb-0"><strong class="pr-1">Student ID:</strong>321000001</p>
+            <p class="mb-0"><strong class="pr-1">Class:</strong>BSIT</p>
+            <p class="mb-0"><strong class="pr-1">Section:</strong>MI211</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="card shadow-sm">
+          <div class="card-header bg-transparent border-0">
+            <h3 class="mb-0"><i class="far fa-clone pr-1"></i>General Information</h3>
+          </div>
+          <div class="card-body pt-0">
+            <table class="table table-bordered">
+              <tr>
+                <th width="30%">Roll</th>
+                <td width="2%">:</td>
+                <td>Student</td>
+              </tr>
+              <tr>
+                <th width="30%">Academic Year	</th>
+                <td width="2%">:</td>
+                <td>2nd year College</td>
+              </tr>
+              <tr>
+                <th width="30%">Gender</th>
+                <td width="2%">:</td>
+                <td>Male</td>
+              </tr>
+              <tr>
+                <th width="30%">Religion</th>
+                <td width="2%">:</td>
+                <td>Catholic</td>
+              </tr>
+              <tr>
+                <th width="30%">blood</th>
+                <td width="2%">:</td>
+                <td>B+</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+          <div style="height: 26px"></div>
+        <div class="card shadow-sm">
+          <div class="card-header bg-transparent border-0">
+            <h3 class="mb-0"><i class="far fa-clone pr-1"></i>Other Information</h3>
+          </div>
+          <div class="card-body pt-0">
+              <p>My Hobby is Dancing, Biking, Swimming etc. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+           
+    		</div>
+		</div>
+    </div>
+</section>
 
 <?php
 // define variables and set to empty values
@@ -121,85 +200,6 @@ echo $comment;
 echo "<br>";
 echo $gender;
 ?>
-
-<section>
-    <div class="rt-container">
-          <div class="col-rt-12">
-              <div class="Scriptcontent">
-              
-<!-- Student Profile -->
-<div class="student-profile py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="card shadow-sm">
-          <div class="card-header bg-transparent text-center">
-            <img class="profile_img" src="bon.jpg" alt="bon"  style="width:100%">
-            <h3>Bon Daggao</h3>
-          </div>
-          <div class="card-body">
-            <p class="mb-0"><strong class="pr-1">Student ID:</strong>321000001</p>
-            <p class="mb-0"><strong class="pr-1">Class:</strong>BSIT</p>
-            <p class="mb-0"><strong class="pr-1">Section:</strong>MI211</p>
-            
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-8">
-        <div class="card shadow-sm">
-          <div class="card-header bg-transparent border-0">
-            <h3 class="mb-0"><i class="far fa-clone pr-1"></i>General Information</h3>
-          </div>
-          <div class="card-body pt-0">
-            <table class="table table-bordered">
-              <tr>
-                <th width="30%">Roll</th>
-                <td width="2%">:</td>
-                <td>Student</td>
-              </tr>
-              <tr>
-                <th width="30%">Academic Year	</th>
-                <td width="2%">:</td>
-                <td>2nd year College</td>
-              </tr>
-              <tr>
-                <th width="30%">Gender</th>
-                <td width="2%">:</td>
-                <td>Male</td>
-              </tr>
-              <tr>
-                <th width="30%">Religion</th>
-                <td width="2%">:</td>
-                <td>Catholic</td>
-              </tr>
-              <tr>
-                <th width="30%">blood</th>
-                <td width="2%">:</td>
-                <td>B+</td>
-              </tr>
-            </table>
-          </div>
-        </div>
-          <div style="height: 26px"></div>
-        <div class="card shadow-sm">
-          <div class="card-header bg-transparent border-0">
-            <h3 class="mb-0"><i class="far fa-clone pr-1"></i>Other Information</h3>
-          </div>
-          <div class="card-body pt-0">
-              <p>My Hobby is Dancing, Biking, Swimming etc. </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- partial -->
-           
-    		</div>
-		</div>
-    </div>
-</section>
-     
     <!-- Analytics -->
 
 	</body>
