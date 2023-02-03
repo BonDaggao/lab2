@@ -207,7 +207,7 @@ echo $gender;
 
 if ($_SERVER ["REQUEST_METHOD"] == "POST")
 {
-    $servername = "localhost";
+    $servername = "apcwebprog.csf.ph";
     $username = "root";
     $password = "";
     $dbname = "myDBMI211";
