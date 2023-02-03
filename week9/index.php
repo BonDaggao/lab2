@@ -208,8 +208,8 @@ echo $gender;
 if ($_SERVER ["REQUEST_METHOD"] == "POST")
 {
     $servername = "apcwebprog.csf.ph";
-    $username = "root";
-    $password = "";
+    $username = "bsdaggao2";
+    $password = "bsdaggao2";
     $dbname = "myDBMI211";
 
     // Create connection
