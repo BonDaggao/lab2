@@ -113,8 +113,6 @@
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
 $name = $email = $gender = $comment = $website = "";
 
-$myForm->addBtn('submit', 'submit', 1, 'Submit', 
-                'class=btn btn-primary');
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["name"])) {
