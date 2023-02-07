@@ -23,7 +23,7 @@
     	<div class="col-rt-12">
         	<div class="rt-heading">
             	<h1>Student Profile Page</h1>
-            
+              <p></p>
             </div>
         </div>
     </div>
