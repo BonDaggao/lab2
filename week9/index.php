@@ -23,7 +23,7 @@
     	<div class="col-rt-12">
         	<div class="rt-heading">
             	<h1>Student Profile Page</h1>
-              
+            
             </div>
         </div>
     </div>
@@ -113,7 +113,6 @@
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
 $name = $email = $gender = $comment = $website = "";
 
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["name"])) {
     $nameErr = "Name is required";
@@ -165,7 +164,6 @@ function test_input($data) {
   return $data;
 }
 ?>
-
 <div style="margin-left: 50%">
   <h2>PHP Form Validation</h2>
   <p><span class="error">* required field</span></p>
@@ -187,8 +185,8 @@ function test_input($data) {
     <input type="radio" name="gender" <?php if (isset($gender) && $gender=="other") echo "checked";?> value="other">Other  
     <span class="error">* <?php echo $genderErr;?></span>
     <br><br>
-    <input type="submit" name="submit" value="Submit"> 
-</div> 
+    <input type="submit" name="submit" value="Submit">  
+  </div> 
 </form>
 
 <?php
@@ -210,28 +208,28 @@ echo $gender;
 
 if ($_SERVER ["REQUEST_METHOD"] == "POST")
 {
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "myDBMI211";
-
-    // Create connection
-    $conn = new mysqli($servername, $username, $password, $dbname);
-    // Check connection
-    if ($conn->connect_error) {
+  $servername = "localhost";
+  $username = "root";
+  $password = "";
+  $dbname = "myDBMI211";
+  
+  // Create connection
+  $conn = new mysqli($servername, $username, $password, $dbname);
+  // Check connection
+  if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
-    }
-
-    $sql = "INSERT INTO MyGuests (firstname, lastname, email, wwebsite, comment)
-    VALUES ('$name', '', '$email')";
-
-    if ($conn->query($sql) === TRUE) {
+  }
+  
+  $sql = "INSERT INTO MyGuests (firstname, lastname, email)
+  VALUES ('$firstname', '', '$email')";
+  
+  if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
-    } else {
+  } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
-    }
-
-    $conn->close();
+  }
+  
+  $conn->close();
 }
 ?>
 	</body>
