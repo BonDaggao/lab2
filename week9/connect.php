@@ -1,7 +1,7 @@
 <?php
 $servername = "apcwebprog.csf.ph";
 $username = "webprogmi211";
-$password = "";
+$password = "webprogmi211";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);

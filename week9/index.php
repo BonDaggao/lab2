@@ -24,6 +24,7 @@
         	<div class="rt-heading">
             	<h1>Student Profile Page</h1>
               <p></p>
+              <p></p>
             </div>
         </div>
     </div>
