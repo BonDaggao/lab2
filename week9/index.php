@@ -221,7 +221,7 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST")
   }
   
   $sql = "INSERT INTO bsdaggao_MyGuests (fullname, email, website, comment)
-  VALUES ('$name', '$email', '$website', '$commnent')";
+  VALUES ('$name', '$email', '$website', '$comment')";
   
   if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
